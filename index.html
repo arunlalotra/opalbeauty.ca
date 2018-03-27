@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Opal Beauty </title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $('.slider').slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 8000,
+        mobileFirst: true,
+      });   
+    });
+    //  on scroll js
+    $(window).scroll(function() {   
+
+        var scroll = $(window).scrollTop();
+      //console.log(scroll1) ;
+        if (scroll >= 200) {
+            $(".header").addClass("darkHeader");
+        } else {
+            $(".header").removeClass("darkHeader");
+        }
+    });
+</script>
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- header start -->
+        <header class="header">
+          <div class="logo text-center">
+            <a href="index.html"><img src="images/logo.png"></a>
+          </div>
+        </header>
+        <!-- header end -->        
+
+        <!-- #slider start -->
+        <div id="slider">
+
+          <!-- banner_text start -->
+          <section class="banner_text text-center">
+            <p class="md_heading">Best Place For Your</p>
+            <p class="lg_heading pnk_color">Makeup & Hair</p>
+            <p class="sm_heading">Welcome to <span class="pnk_color text-uppercase">Opal beauty</span> , Here we provied the best <br> services regading Makeup and Hair cut in your city. </p>
+            <button class="pnk_bg call_us">604.791.6565</button>
+          </section>
+          <!-- banner_text end -->
+
+          <!-- slider start -->
+          <section class="slider">
+            <div>
+              <img src="images/slider1.jpg">
+            </div>
+            <div>
+              <img src="images/slider2.jpg">
+            </div>
+            <div>
+              <img src="images/slider3.jpg">
+            </div>        
+          </section>
+          <!-- .slider end -->
+
+        </div>      
+        <!-- #slider end -->
+
+        <!-- #about start -->
+        <section id="about" class="p_ding">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 vcenter">
+                <div class="align_text text-center">
+                  <p class="heading">REVEAL YOUR BEAUTY</p>
+                  <b><span class="pnk_color"> Call us:</span> And we’ll take care of the rest</b>
+                  <p>Duis autem vel eum iriure dolor in hendrerit in putate <br>velit esse molestie consequat, vel illum doloreeu feugiat</p>
+                  <button class="pnk_bg call_us">604.791.6565</button>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6 vcenter">
+                <div class="align_img">
+                  <img src="images/ab.jpg">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- #about end -->
+
+        <!-- #services start -->
+        <section id="services" class="p_ding">
+          <div class="container-fluid lg_pnk">
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 vcenter">
+                <!-- slider start -->
+                <section class="slider">
+                  <div>
+                    <img src="images/sli_1.jpg">
+                  </div>
+                  <div>
+                    <img src="images/sli_2.jpg">
+                  </div>
+                  <div>
+                    <img src="images/sli_3.jpg">
+                  </div>        
+                </section>
+                <!-- .slider end -->
+              </div>
+
+              <div class="col-lg-6 col-md-6 vcenter">
+                <div class="align_text ">
+                  <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+                    <p class="heading text-center">OUR SERVICES</p>
+                    <ul>
+                      <li><strong>1</strong> <span><b>Hair styling</b>Duis autem vel eum iriure dolor in hendrerit in putate velit esse molestie consequat, vel illum doloreeu feugiat</span></li>
+                      <li><strong>2</strong> <span><b>Make up studio</b>Duis autem vel eum iriure dolor in hendrerit in putate velit esse molestie consequat, vel illum doloreeu feugiat</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- #services end -->
+
+        <!-- #prices start -->
+        <section id="prices" class="p_ding">
+          <div class="container-fluid lg_pnk">
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 vcenter">
+                <!-- slider start -->
+                <section class="slider">
+                  <div>
+                    <img src="images/sli_4.jpg">
+                  </div>
+                  <div>
+                    <img src="images/sli_5.jpg">
+                  </div>
+                  <div>
+                    <img src="images/sli_6.jpg">
+                  </div>        
+                </section>
+                <!-- .slider end -->
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-lg-pull-6 col-md-pull-6 vcenter">
+                <div class="align_text col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+                  <p class="heading text-center">OUR PRICES</p>
+                  <ul>
+                    <li>
+                      <b>WOMEN</b>
+                      <ul>
+                        <li>SHORT HAIR STYLES</li>
+                        <li>65+</li>
+                      </ul>
+                      <ul>
+                        <li>MEDIUM HAIR STYLES </li>
+                        <li>75+</li>
+                      </ul>
+                      <ul>
+                        <li>LONG HAIR STYLES</li>
+                        <li>85+</li>
+                      </ul>
+                      <ul>
+                        <li>Makeup</li>
+                        <li>105+</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              
+
+            </div>
+          </div>
+        </section>
+        <!-- #prices end -->
+
+        <footer class="footer">
+          <div class="footer_top">
+            <div class="container">
+              <div class="col-lg-6 col-md-6">
+                <div class="footer_inner">
+                  <strong class="pnk_color">About us</strong>
+                  <p>Duis autem vel eum iriure dolor in hendrerit in putate velit esse molestie consequat, vel illum doloreeu feugiat. Lorem ipsum dolor sit amet, cosectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna…</p>
+                  <span><b>Phone:</b> 604.791.6565</span>
+                  <span><b>Email: </b> opal.beauty@outlook.com</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="footer_inner">
+                  <strong class="pnk_color">Directions</strong>
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="footer_bottom">
+            <div class="container">
+              <div class="col-lg-6 col-md-6">
+                <div class="footer_inner">
+                  <p><b class="pnk_color"> Design by:-</b> arunlalotra94@gmail.com</p>                  
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="footer_inner">
+                  <ul class="social_icons">
+                    <li><b class="pnk_color">Follow us:</b></li>
+                    <li><a href="#"><span class="fb_icon"></span></a></li>
+                    <li><a href="#"><span class="ins_icon"></span></a></li>
+                  </ul>
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
+      </div>      
+    </div>
+  </div>
+
+</body>
+
+</html>

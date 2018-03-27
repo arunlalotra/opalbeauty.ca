@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+body{margin: 0;line-height: normal;font-family: 'Oswald', sans-serif;}
+p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
+
+.wrapper {
+	position: relative;
+}
+.header{
+	position: fixed;top: 0;width: 100%;z-index: 1;padding: 15px 0;
+}
+.header.darkHeader{
+	padding: 7px 0;
+	background-color: #161616;
+	z-index: 3;
+}
+.header.darkHeader .logo img{
+	max-height: 50px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+.logo img{margin: 0 auto;}
+
+
+#slider{position: relative;z-index: 0;}
+
+.banner_text{
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	-webkit-transform: translate(0,-50%;);
+	-moz-transform: translate(0,-50%;);
+	transform: translate(0,-50%;);
+	z-index: 1;
+	width: 100%;
+}
+
+.md_heading{
+	font-size: 80px;
+	line-height: 80px;
+}
+.lg_heading{
+	font-size: 100px;
+	line-height: 100px;
+	font-weight: 900;
+	letter-spacing: 10px;
+	margin-bottom: 30px;
+}
+.sm_heading{
+	font-size: 35px;
+	line-height: 55px;
+	font-weight: 200;
+}
+.pnk_color{
+	color: #ec5598;
+}
+.pnk_bg{
+	background-color: #ec5598;
+}
+.banner_text span{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	font-weight: 400;
+}
+.call_us{
+	border: none;
+	border-radius: 20px;
+	padding: 7px 35px;
+	color: #fff; 
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	transition: .5s;
+	font-size: 25px;
+	letter-spacing: 5px;
+	font-weight: 400;
+	border: 1px solid #ec5598;
+}
+.call_us:hover{
+	background-color: #fff;
+	color: #ec5598;
+	border-color: #ec5598;
+}
+
+.slider {margin: 0;}
+.slider .slide {width: 100%; height: 100%;}
+.slick-slide img {
+	width: 100%;
+}
+.slick-prev, .slick-next {
+    display: none !important;
+}
+.slick-dots {
+  bottom: 30px;
+  margin-left: 0;
+}
+.slick-dots li button{
+	height: 50px;
+	width: 50px;
+}
+.slick-dots li button::before {
+	font-size: 50px;
+	opacity: 1;
+	color: #fff;
+}
+.slick-dots li.slick-active button::before {
+	opacity: 1;
+	color: #ec5598;
+}
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+
+
+.p_ding{
+	padding: 100px 0 0;
+	clear: both;
+	position: relative;
+}
+.align_text{
+	overflow: hidden;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.align_text .heading{
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 600;
+}
+.align_img{
+	height: 427px;
+	width: 367px;
+}
+.align_img:before{
+	position: absolute;
+	content: "";
+	height: 427px;
+	width: 367px;
+	border: 2px solid #161616;
+	top: 50px;
+	left: 63px;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	transition: .5s;
+}
+.align_img:hover:before{
+	border: 2px solid #ec5598;
+	top: 0;
+	left: 0px;
+}
+.align_text b{
+	font-size: 20px;margin-bottom: 10px;display: block;
+}
+.align_text p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 20px;display: block;
+}
+.p_ding .vcenter{
+	padding: 0;
+	margin: 0 -1px;
+}
+#prices.p_ding{
+	padding:0; 
+}
+.align_text ul {
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	margin: 0;
+}
+.align_text ul li strong {
+	width: 50px;
+	float: left;
+	margin-right: 10%;
+	background-color: #fff;
+	border: 1px solid #fcb4d4;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 50%;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	transition: .5s;
+}
+.align_text ul li:hover strong{
+	background-color: #fcb4d4;
+}
+.lg_pnk{
+	background-color: #fff4f9;
+}
+.align_text ul li span {
+	width: 78%;
+	float: left;
+	font-size: 20px;
+	margin-bottom: 30px;
+	font-weight: 300;
+}
+.align_text ul ul{
+	margin-bottom: 30px;
+	position: relative;
+}
+.align_text ul ul::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1px;
+	border-bottom: 2px dotted #161616;
+	left: 0;
+	bottom: 6px;
+	z-index: 0;
+}
+.align_text ul ul li {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	font-weight: 300;
+	background-color: #fff4f9;
+	position: relative;
+	z-index: 1;
+	padding: 0 5px;
+	text-transform: uppercase;
+}
+
+.align_text ul ul li + li {
+	float: right;
+	font-weight: 600;
+}
+.footer{	
+	overflow: hidden; 
+}
+.footer_top{
+	background-color: #383838;
+	overflow: hidden;
+	padding: 50px 0 20px;
+}
+.footer_inner{
+	color: #fff;	
+	font-size: 20px;
+}
+.footer_inner strong{
+	font-size: 30px;
+	font-weight: 200;
+}
+.footer_inner strong, .footer_inner p, .footer_inner span{
+	margin-bottom: 30px;
+	display: block;
+}
+.footer_bottom{
+	background-color: #161616;
+	overflow: hidden;
+	padding: 20px 0;
+}
+.footer_bottom .footer_inner {
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.social_icons{
+	list-style: none;
+	float: right;
+	padding: 0;margin: 0
+}
+.social_icons li{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px; 
+}
+.social_icons li span{
+	height: 44px;
+	width: 44px;
+	background-image: url("../images/social_icons.png");
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	transition: .5s;
+}
+.social_icons li span.fb_icon:hover{
+	background-position: 0 -45px;
+}
+.social_icons li span.ins_icon{
+	background-position: -68px 0;
+}
+.social_icons li span.ins_icon:hover{
+	background-position: -68px -45px;
+}
+.footer_bottom .footer_inner p {
+	margin-bottom: 0;
+	line-height: 44px;
+}
+
+@media(max-width: 1400px) {
+.md_heading{
+	font-size: 50px;
+	line-height: 50px;
+}
+.lg_heading{
+	font-size: 70px;
+	line-height: 70px;
+	margin-bottom: 20px;
+}
+.sm_heading{
+	font-size: 25px;
+	line-height: 45px;
+}
+}
+
+@media(max-width: 1199px) {
+.md_heading{
+	font-size: 30px;
+	line-height: 30px;
+}
+.lg_heading{
+	font-size: 50px;
+	line-height: 50px;
+}
+.sm_heading{
+	font-size: 20px;
+	line-height: 35px;
+}
+.call_us{
+	font-size: 20px;
+}
+.align_text ul li span {
+	width: 70%;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+}
+@media(max-width: 991px) {
+#about.p_ding .vcenter {
+	padding: 0 15px;
+	margin: 0;
+}
+.vcenter {
+	display: block;
+}
+.align_img {
+	margin: 40px auto 0;
+}
+.align_img::before {
+	display: none;
+}
+.align_img img{
+	border: 2px solid #ec5598;
+}
+.align_text{
+	padding: 50px;
+}
+}
