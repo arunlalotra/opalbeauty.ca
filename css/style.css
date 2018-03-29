@@ -394,7 +394,21 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 .social_icons {
 	float: none;
 }
-
+.align_text ul li strong {
+	float: none;
+	margin-right: 0;
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+.align_text ul li span {
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+.align_text b {
+	text-align: center;
+}
 }
 
 @media(max-width: 479px){
