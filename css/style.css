@@ -353,7 +353,7 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 	border: 2px solid #ec5598;
 }
 .align_text{
-	padding: 50px;
+	padding: 50px 0;
 }
 }
 @media(max-width: 767px){
