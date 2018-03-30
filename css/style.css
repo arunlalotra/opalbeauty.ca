@@ -246,11 +246,12 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 .footer_top{
 	background-color: #383838;
 	overflow: hidden;
-	padding: 50px 0;
+	padding: 50px 0 30px;
 }
-.footer_inner{
-	color: #fff;	
+.footer_inner {
+	color: #fff;
 	font-size: 20px;
+	margin-bottom: 20px;
 }
 .footer_inner strong{
 	font-size: 30px;
