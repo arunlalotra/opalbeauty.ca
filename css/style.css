@@ -376,6 +376,10 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 	max-height: 80px;
 	margin: 0 auto;
 }
+.modal-header .close {
+	color: #fff;
+	opacity: 1;
+}
 
 
 /* gallery css */
