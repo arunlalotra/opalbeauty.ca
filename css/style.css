@@ -325,6 +325,57 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 #testimonials .slick-dots {
 	display: none !important;
 }
+#contact_us{
+	background-color: #f7cf6d;
+	color: #121212;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	transition: .5s;
+}
+#contact_us:hover{
+	background-color: #ffffff;
+	color: #f7cf6d;
+}
+.modal-body{
+	overflow: hidden;
+}
+.modal-body input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px; 
+}
+.modal-body button{
+	max-width: 200px;
+	background-color: #f7cf6d;
+	border:1px solid #f7cf6d !important;
+	color: #121212;
+	display: inline-block;
+	border: none;
+	width: 100%;
+	padding: 10px;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	transition: .5s;
+}
+.modal-body button:hover{
+	background-color: #ffffff;
+	color: #f7cf6d;
+}
+.btn-default.focus, .btn-default:focus {
+	color: #f7cf6d;
+	background-color: #ffffff;
+	border-color: #f7cf6d;
+}
+/* popup css */
+
+.modal-header{
+	background-color: #121212;
+	text-align: center;
+}
+.modal-header img{
+	max-height: 80px;
+	margin: 0 auto;
+}
 
 
 /* gallery css */

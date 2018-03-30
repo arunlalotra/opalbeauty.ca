@@ -20,6 +20,10 @@
   <script src="js/slick.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(document).on('ready', function() {
+      $('#contact_us').click(function() {
+            $(".modal").toggleClass("in");
+        });
+
       $('.slider').slick({
         dots: true,
         autoplay: true,
@@ -38,8 +42,8 @@
           }
           else
           {
-  //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-  //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            // $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //  $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
               $(".filter").not('.'+value).hide('3000');
               $('.filter').filter('.'+value).show('3000');
               
@@ -51,6 +55,7 @@
           }
           $(this).addClass("active");
     });
+
     //  on scroll js
     $(window).scroll(function() {   
 
@@ -62,6 +67,7 @@
             $(".header").removeClass("darkHeader");
         }
     });
+
 </script>
 
 </head>
@@ -314,6 +320,8 @@
                   <p>Duis autem vel eum iriure dolor in hendrerit in putate velit esse molestie consequat, vel illum doloreeu feugiat. Lorem ipsum dolor sit amet, cosectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna…</p>
                   <span><b>Phone:</b> 604.791.6565</span>
                   <span><b>Email: </b> opal.beauty@outlook.com</span>
+                  <button id="contact_us" type="button" class="btn btn-lg text-uppercase" data-toggle="modal" data-target="#myModal">Contact us</button>
+                  
                 </div>
               </div>
 
@@ -356,6 +364,41 @@
       </div>      
     </div>
   </div>
+
+  <!-- popup start -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <img src="images/logo.png">
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <div class="col-md-12">
+                  <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="col-md-12">
+                  <input type="email" name="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="col-md-12">
+                  <input type="phone" name="phone" id="phone" placeholder="Your Phone">
+                </div>
+                <div class="col-md-12 text-center">
+                  <button type="button" class="btn btn-default text-uppercase">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  <!-- popup end -->
 
 </body>
 
