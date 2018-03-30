@@ -225,6 +225,17 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 	padding: 0 5px;
 	text-transform: uppercase;
 }
+.map {
+	position: relative;
+	padding-bottom: 56%;
+}
+.map iframe {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
 .align_text ul ul li + li {
 	float: right;
 	font-weight: 600;
