@@ -149,7 +149,7 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 .align_img:hover:before{
 	border: 2px solid #f7cf6d;
 	top: 0;
-	left: 0px;
+	left: 15px;
 }
 .align_text b{
 	font-size: 20px;margin-bottom: 10px;display: block;
@@ -163,8 +163,8 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 	padding: 0;
 	margin: 0 -1px;
 }
-#prices.p_ding{
-	padding:0; 
+#testimonials.p_ding{
+	padding:100px 0; 
 }
 .align_text ul {
 	padding: 0;
@@ -301,8 +301,100 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 }
 .footer_bottom .footer_inner p {
 	margin-bottom: 0;
-	line-height: 44px;
 }
+.footer_bottom .footer_inner p .copy_right{
+	font-size: 12px;
+	margin: 0;
+	letter-spacing: 0;
+}
+.slick-slide .testi_img img {
+	width: auto;
+	margin: auto;
+	border-radius: 50%;
+	padding: 5px;
+	border: 1px solid #121212;
+}
+.testi {
+	text-align: center;
+}
+.testi_text p{
+	font-size: 20px;letter-spacing: 1px;
+	padding: 15px;line-height: 30px;
+}
+.testi_text p b{display: block;margin-top: 15px;}
+#testimonials .slick-dots {
+	display: none !important;
+}
+
+
+/* gallery css */
+.gallery_img {
+	position: relative;
+	cursor: pointer;
+	padding: 10px;
+	border: 1px solid #f7cf6d;
+	-webkit-transition: 0.3s linear;
+	-moz-transition: 0.3s linear;
+	transition: 0.3s linear;
+}
+
+.gallery_img::before {
+	border: 1px solid #f7cf6d;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	content: "";
+	opacity: .5;
+	-webkit-transition: 0.3s linear ;
+	-moz-transition: 0.3s linear;
+	transition: 0.3s linear;
+	padding: 10px;
+}
+.gallery_img:hover{
+	padding: 0;border: 1px solid #f7cf6d;
+}
+.gallery_img:hover:before{
+	opacity: 0;
+}
+.gallery-title {
+    font-size: 36px;
+    color: #121212;
+    text-align: center;
+    font-weight: 500;
+    margin-top:  50px;
+}
+.filter-button{
+    font-size: 18px;
+    border: 1px solid #f7cf6d;
+    border-radius: 5px;
+    text-align: center;
+    color: #f7cf6d;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover{
+    font-size: 18px;
+    border: 1px solid #f7cf6d;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f7cf6d;
+
+}
+.btn-default:active .filter-button:active{
+    background-color: #f7cf6d;
+    color: white;
+}
+
+.port-image{
+    width: 100%;
+}
+
+.gallery_product{
+    margin-bottom: 30px;
+}
+
+
 
 @media(max-width: 1400px) {
 .md_heading{
