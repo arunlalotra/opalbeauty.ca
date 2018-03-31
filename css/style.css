@@ -48,6 +48,9 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 	letter-spacing: 10px;
 	margin-bottom: 30px;
 }
+.lg_heading span{
+	color: #fff;
+}
 .sm_heading{
 	font-size: 35px;
 	line-height: 55px;
