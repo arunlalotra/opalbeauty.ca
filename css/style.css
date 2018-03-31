@@ -36,17 +36,17 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 	z-index: 1;
 	width: 100%;
 }
-
 .md_heading{
 	font-size: 80px;
 	line-height: 80px;
+
 }
 .lg_heading{
 	font-size: 100px;
 	line-height: 100px;
 	font-weight: 900;
 	letter-spacing: 10px;
-	margin-bottom: 30px;
+	margin-bottom:10px;
 }
 .lg_heading span{
 	color: #fff;
@@ -54,7 +54,8 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 .sm_heading{
 	font-size: 35px;
 	line-height: 55px;
-	font-weight: 200;
+	margin-bottom: 20px;
+	letter-spacing: 5px;
 }
 .pnk_color{
 	color: #f7cf6d;
