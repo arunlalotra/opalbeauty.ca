@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
 
-
 body{margin: 0;line-height: normal;font-family: 'Oswald', sans-serif;overflow-x: hidden; }
 p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 
+a:hover, a:focus, a:active{
+	color: #fff;
+	outline: none;
+}
 .wrapper {
 	position: relative;
 }
@@ -121,6 +124,9 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 	clear: both;
 	position: relative;
 }
+#about.p_ding{
+	padding: 100px 0;
+}
 .align_text{
 	overflow: hidden;
 }
@@ -196,6 +202,9 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 }
 .lg_pnk{
 	background-color: #fdf4de;
+}
+#about .align_text b {
+	display: inline-block;
 }
 .align_text ul li span {
 	width: 78%;
@@ -274,10 +283,10 @@ p,span,b,small,h1,h2,h3,h4,h5,h6,strong,{margin: 0;padding:0;}
 	font-size: 14px;
 	color: #fff;
 	letter-spacing: 2px;
+	margin-bottom: 0;
 }
 .social_icons{
 	list-style: none;
-	float: right;
 	padding: 0;margin: 0
 }
 .social_icons li{
