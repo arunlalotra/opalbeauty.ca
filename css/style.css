@@ -586,6 +586,9 @@ a:hover, a:focus, a:active{
 	float: none !important;
 	padding-top: 10px;
 }
+#about.p_ding {
+	padding: 0;
+}
 }
 
 @media(max-width: 479px){
