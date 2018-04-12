@@ -124,6 +124,9 @@ a:hover, a:focus, a:active{
 	clear: both;
 	position: relative;
 }
+#about a:hover{
+	color: #000;
+}
 #about.p_ding{
 	padding: 100px 0;
 }
